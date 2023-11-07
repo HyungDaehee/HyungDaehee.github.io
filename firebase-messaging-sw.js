@@ -1,14 +1,14 @@
-// eslint-disable-next-line no-restricted-globals
-self.addEventListener("install", function (e) {
-    console.log("fcm sw install..");
-    // eslint-disable-next-line no-restricted-globals
-    self.skipWaiting();
-  });
+// // eslint-disable-next-line no-restricted-globals
+// self.addEventListener("install", function (e) {
+//     console.log("fcm sw install..");
+//     // eslint-disable-next-line no-restricted-globals
+//     self.skipWaiting();
+//   });
   
-  // eslint-disable-next-line no-restricted-globals
-  self.addEventListener("activate", function (e) {
-    console.log("fcm sw activate..");
-  });
+//   // eslint-disable-next-line no-restricted-globals
+//   self.addEventListener("activate", function (e) {
+//     console.log("fcm sw activate..");
+//   });
   
   // eslint-disable-next-line no-restricted-globals
   self.addEventListener("push", function (e) {
